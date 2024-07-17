@@ -31,11 +31,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.home-border{
+
    
    
     
-}
+
 .nav-option{
     
    margin-right: 10rem;
@@ -48,7 +48,10 @@ body{
 .nav-border{
     height: 46px;
     weight:600px;
-    border: 2px solid red;
+  
+}
+.menu{
+    display: none;
 }
 
 .banner-container{
@@ -62,6 +65,9 @@ body{
     font-size:4rem;
     width: 1000px;
    
+}
+.text-container p{
+    color: rgba(255, 255, 255, 0.5);
 }
 .image-container{
     margin-right: 25rem;
@@ -89,4 +95,61 @@ body{
     font-size: 1rem;
     margin-right: 20px;
     color: white;
+}
+
+.part-2-data{
+    width: 82%;
+    height:29rem;
+    border: 2px solid red;
+    margin-left: 10rem;
+    display: flex;
+   
+}
+.part-2-tittle{
+    width: 100%;
+    height:7rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 60px;
+    }
+.part-2-description{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.part-2{
+    width: 82%;
+    height: 20rem;
+    
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.part-2-container{
+    height: 20rem;
+    width: 280px;
+    
+    margin-right: 2rem;
+}
+.container-img{
+    width: 180px;
+    height: 180px;
+   text-align: center;
+    margin-top: 26px;
+    margin-left: 42px;
+   
+}
+.round-img{
+    border-radius: 50%;
+    margin-top: 0;
+}
+.container-img h1{
+    font-size: 1.5rem;
+}
+.container-img p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
 }

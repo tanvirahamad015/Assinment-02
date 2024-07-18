@@ -11,11 +11,10 @@
 
 *{
     margin: 0;
-    margin-top: 1rem;
-   
-    
+    margin-top: 1rem;}
+body{
+    font-family: "Inter", sans-serif;
 }
-
 
 body{
     background-color:black;
@@ -32,17 +31,20 @@ body{
     justify-content: space-between;
 }
 
-   
-   
+
     
 
 .nav-option{
-    
+    border: 2px solid rgba(255, 255, 255, 0.1);
    margin-right: 10rem;
    gap: 3rem;
    display: flex;
-   font-size: 1.5rem;
-  
+   font-size: 18px;
+  border-radius: 30px;
+  height: 40px;
+  width: 370px;
+  padding-left: 27px;
+  padding-bottom: 20px;
 }
 
 .nav-border{
@@ -153,3 +155,64 @@ body{
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
 }
+
+
+.third-part-container{
+    width: 60%;
+    height: 25rem;
+   border-radius: 20px;
+    margin-left: 24rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    display: flex;
+}
+
+.third-part-text{
+    width: 60%;
+    height: 25rem;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.third-part-text h1{
+    font-size: 48px;
+}
+.third-part-tex-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.third-part-img{
+    width: 40%;
+    height: 25rem;
+
+}
+.run-img{
+    border-radius: 8px;
+    width: 350px;
+    height: 300px;
+   margin-left: 60px;
+   margin-top: 30px;
+}
+
+.BMI-Calculator{
+text-align: left;
+margin-bottom: 20px;
+margin-left: 30rem;
+}
+.BMI-Calculator h1{
+    font-size: 48px;
+}
+.BMI-Calculator p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-char-container{
+    width: 100%;
+    height: 480px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
